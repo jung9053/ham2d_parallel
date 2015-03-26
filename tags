@@ -1,0 +1,698 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+111	jac_roe.f90	/^111 continue$/;"	l	subroutine:jac_roe	file:
+A	ham2dtypes.h	/^  double ***A;$/;"	m	struct:GRID
+ADI	ADI.c	/^void ADI(GRID *g,SOLN *s,double cflnum,double dt, int myid)$/;"	f
+B	ham2dtypes.h	/^  double ***B;$/;"	m	struct:GRID
+BDF1	ham2dFunctionDefs.h	9;"	d
+BDF2	ham2dFunctionDefs.h	10;"	d
+C	ham2dtypes.h	/^  double ***C;$/;"	m	struct:GRID
+CC	makefile	/^CC  = icc$/;"	m
+CFL	ham2dtypes.h	/^  double CFL;    \/\/ nominal CFL number$/;"	m	struct:GRID
+CFLAGS	makefile	/^CFLAGS =  -w -O2 -g#-fbacktrace -fbounds-check # -g #-traceback  -check uninit  #-warn-all#-g #-O2 #-g$/;"	m
+CFLMAX	ham2dFunctionDefs.h	14;"	d
+CHK	ham2dFunctionDefs.h	17;"	d
+D	ham2dtypes.h	/^  double ***D;   \/\/ diagonal matrix$/;"	m	struct:SOLN
+DADI	DADI.c	/^void DADI(GRID *g,SOLN *s,double cflnum,double dt,int myid)$/;"	f
+DualADI	DualADI.c	/^void DualADI(GRID *g,SOLN *s,double cflnum,double dt,int myid)$/;"	f
+DualcomputeRHSk	DualcomputeRHSk.c	/^void DualcomputeRHSk(GRID *g,SOLN *s,double *l2rho,double cflnum)$/;"	f
+F	ham2dtypes.h	/^  double **F;$/;"	m	struct:GRID
+F90	makefile	/^F90 = ifort$/;"	m
+FFLAGS	makefile	/^FFLAGS =  -w -O2 -g#-r8 $/;"	m
+GRID	ham2dtypes.h	/^typedef struct GRID$/;"	s
+GRID	ham2dtypes.h	/^} GRID;$/;"	t	typeref:struct:GRID
+HAVE_DOUBLE__COMPLEX	mpi.h	136;"	d
+HAVE_FLOAT__COMPLEX	mpi.h	133;"	d
+HAVE_LONG_DOUBLE__COMPLEX	mpi.h	139;"	d
+HAVE_MPI_OFFSET	mpi.h	2672;"	d
+IMPI_CLIENT_COLOR	mpi.h	/^    IMPI_CLIENT_COLOR,$/;"	e	enum:__anon1
+IMPI_CLIENT_SIZE	mpi.h	/^    IMPI_CLIENT_SIZE,$/;"	e	enum:__anon1
+IMPI_HOST_COLOR	mpi.h	/^    IMPI_HOST_COLOR$/;"	e	enum:__anon1
+IMPI_HOST_SIZE	mpi.h	/^    IMPI_HOST_SIZE,$/;"	e	enum:__anon1
+LFLAGS	makefile	/^LFLAGS =$(CFLAGS) -lm$/;"	m
+MPIFC	makefile	/^MPIFC = \/usr\/local\/bin\/mpicc$/;"	m
+MPIO_Request	mpi.h	292;"	d
+MPIO_Test	mpi.h	293;"	d
+MPIO_Wait	mpi.h	294;"	d
+MPI_2COMPLEX	mpi.h	1068;"	d
+MPI_2DOUBLE_COMPLEX	mpi.h	1069;"	d
+MPI_2DOUBLE_PRECISION	mpi.h	1125;"	d
+MPI_2INT	mpi.h	1059;"	d
+MPI_2INTEGER	mpi.h	1126;"	d
+MPI_2REAL	mpi.h	1124;"	d
+MPI_AINT	mpi.h	1137;"	d
+MPI_ANY_SOURCE	mpi.h	416;"	d
+MPI_ANY_TAG	mpi.h	419;"	d
+MPI_APPNUM	mpi.h	/^    MPI_APPNUM,$/;"	e	enum:__anon1
+MPI_ARGVS_NULL	mpi.h	441;"	d
+MPI_ARGV_NULL	mpi.h	440;"	d
+MPI_Aint	mpi.h	/^typedef OPAL_PTRDIFF_TYPE MPI_Aint;$/;"	t
+MPI_BAND	mpi.h	1028;"	d
+MPI_BOR	mpi.h	1030;"	d
+MPI_BOTTOM	mpi.h	435;"	d
+MPI_BSEND_OVERHEAD	mpi.h	437;"	d
+MPI_BXOR	mpi.h	1032;"	d
+MPI_BYTE	mpi.h	1040;"	d
+MPI_CART	mpi.h	426;"	d
+MPI_CHAR	mpi.h	1042;"	d
+MPI_CHARACTER	mpi.h	1072;"	d
+MPI_COMBINER_CONTIGUOUS	mpi.h	/^  MPI_COMBINER_CONTIGUOUS,$/;"	e	enum:__anon4
+MPI_COMBINER_DARRAY	mpi.h	/^  MPI_COMBINER_DARRAY,$/;"	e	enum:__anon4
+MPI_COMBINER_DUP	mpi.h	/^  MPI_COMBINER_DUP,$/;"	e	enum:__anon4
+MPI_COMBINER_F90_COMPLEX	mpi.h	/^  MPI_COMBINER_F90_COMPLEX,$/;"	e	enum:__anon4
+MPI_COMBINER_F90_INTEGER	mpi.h	/^  MPI_COMBINER_F90_INTEGER,$/;"	e	enum:__anon4
+MPI_COMBINER_F90_REAL	mpi.h	/^  MPI_COMBINER_F90_REAL,$/;"	e	enum:__anon4
+MPI_COMBINER_HINDEXED	mpi.h	/^  MPI_COMBINER_HINDEXED,$/;"	e	enum:__anon4
+MPI_COMBINER_HINDEXED_BLOCK	mpi.h	/^  MPI_COMBINER_HINDEXED_BLOCK$/;"	e	enum:__anon4
+MPI_COMBINER_HINDEXED_INTEGER	mpi.h	/^  MPI_COMBINER_HINDEXED_INTEGER,$/;"	e	enum:__anon4
+MPI_COMBINER_HVECTOR	mpi.h	/^  MPI_COMBINER_HVECTOR,$/;"	e	enum:__anon4
+MPI_COMBINER_HVECTOR_INTEGER	mpi.h	/^  MPI_COMBINER_HVECTOR_INTEGER,$/;"	e	enum:__anon4
+MPI_COMBINER_INDEXED	mpi.h	/^  MPI_COMBINER_INDEXED,$/;"	e	enum:__anon4
+MPI_COMBINER_INDEXED_BLOCK	mpi.h	/^  MPI_COMBINER_INDEXED_BLOCK,$/;"	e	enum:__anon4
+MPI_COMBINER_NAMED	mpi.h	/^  MPI_COMBINER_NAMED,$/;"	e	enum:__anon4
+MPI_COMBINER_RESIZED	mpi.h	/^  MPI_COMBINER_RESIZED,$/;"	e	enum:__anon4
+MPI_COMBINER_STRUCT	mpi.h	/^  MPI_COMBINER_STRUCT,$/;"	e	enum:__anon4
+MPI_COMBINER_STRUCT_INTEGER	mpi.h	/^  MPI_COMBINER_STRUCT_INTEGER,$/;"	e	enum:__anon4
+MPI_COMBINER_SUBARRAY	mpi.h	/^  MPI_COMBINER_SUBARRAY,$/;"	e	enum:__anon4
+MPI_COMBINER_VECTOR	mpi.h	/^  MPI_COMBINER_VECTOR,$/;"	e	enum:__anon4
+MPI_COMM_DUP_FN	mpi.h	792;"	d
+MPI_COMM_NULL	mpi.h	738;"	d
+MPI_COMM_NULL_COPY_FN	mpi.h	791;"	d
+MPI_COMM_NULL_DELETE_FN	mpi.h	790;"	d
+MPI_COMM_SELF	mpi.h	1017;"	d
+MPI_COMM_TYPE_SHARED	mpi.h	/^  MPI_COMM_TYPE_SHARED$/;"	e	enum:__anon5
+MPI_COMM_WORLD	mpi.h	1016;"	d
+MPI_COMPLEX	mpi.h	1113;"	d
+MPI_COMPLEX16	mpi.h	1118;"	d
+MPI_COMPLEX32	mpi.h	1121;"	d
+MPI_COMPLEX8	mpi.h	1115;"	d
+MPI_CONGRUENT	mpi.h	/^  MPI_CONGRUENT,$/;"	e	enum:__anon2
+MPI_CONVERSION_FN_NULL	mpi.h	805;"	d
+MPI_COUNT	mpi.h	1156;"	d
+MPI_CXX_BOOL	mpi.h	1150;"	d
+MPI_CXX_DOUBLE_COMPLEX	mpi.h	1152;"	d
+MPI_CXX_FLOAT_COMPLEX	mpi.h	1151;"	d
+MPI_CXX_LONG_DOUBLE_COMPLEX	mpi.h	1153;"	d
+MPI_C_BOOL	mpi.h	1139;"	d
+MPI_C_COMPLEX	mpi.h	1141;"	d
+MPI_C_DOUBLE_COMPLEX	mpi.h	1145;"	d
+MPI_C_FLOAT_COMPLEX	mpi.h	1142;"	d
+MPI_C_LONG_DOUBLE_COMPLEX	mpi.h	1148;"	d
+MPI_Comm	mpi.h	/^typedef struct ompi_communicator_t *MPI_Comm;$/;"	t	typeref:struct:ompi_communicator_t
+MPI_Comm_copy_attr_function	mpi.h	/^typedef int (MPI_Comm_copy_attr_function)(MPI_Comm, int, void *,$/;"	t
+MPI_Comm_delete_attr_function	mpi.h	/^typedef int (MPI_Comm_delete_attr_function)(MPI_Comm, int, void *, void *);$/;"	t
+MPI_Comm_errhandler_function	mpi.h	/^typedef void (MPI_Comm_errhandler_function)(MPI_Comm *, int *, ...);$/;"	t
+MPI_Copy_function	mpi.h	/^typedef int (MPI_Copy_function)(MPI_Comm, int, void *,$/;"	t
+MPI_Count	mpi.h	/^typedef OMPI_MPI_COUNT_TYPE MPI_Count;$/;"	t
+MPI_DATATYPE_NULL	mpi.h	1039;"	d
+MPI_DISPLACEMENT_CURRENT	mpi.h	467;"	d
+MPI_DISTRIBUTE_BLOCK	mpi.h	446;"	d
+MPI_DISTRIBUTE_CYCLIC	mpi.h	447;"	d
+MPI_DISTRIBUTE_DFLT_DARG	mpi.h	449;"	d
+MPI_DISTRIBUTE_NONE	mpi.h	448;"	d
+MPI_DIST_GRAPH	mpi.h	425;"	d
+MPI_DOUBLE	mpi.h	1047;"	d
+MPI_DOUBLE_COMPLEX	mpi.h	1123;"	d
+MPI_DOUBLE_INT	mpi.h	1055;"	d
+MPI_DOUBLE_PRECISION	mpi.h	1112;"	d
+MPI_DUP_FN	mpi.h	784;"	d
+MPI_Datarep_conversion_function	mpi.h	/^typedef int (MPI_Datarep_conversion_function)(void *, MPI_Datatype,$/;"	t
+MPI_Datarep_extent_function	mpi.h	/^typedef int (MPI_Datarep_extent_function)(MPI_Datatype, MPI_Aint *, void *);$/;"	t
+MPI_Datatype	mpi.h	/^typedef struct ompi_datatype_t *MPI_Datatype;$/;"	t	typeref:struct:ompi_datatype_t
+MPI_Delete_function	mpi.h	/^typedef int (MPI_Delete_function)(MPI_Comm, int, void *, void *);$/;"	t
+MPI_ERRCODES_IGNORE	mpi.h	442;"	d
+MPI_ERRHANDLER_NULL	mpi.h	742;"	d
+MPI_ERROR	mpi.h	/^    int MPI_ERROR;$/;"	m	struct:ompi_status_public_t
+MPI_ERRORS_ARE_FATAL	mpi.h	1158;"	d
+MPI_ERRORS_RETURN	mpi.h	1159;"	d
+MPI_ERR_ACCESS	mpi.h	553;"	d
+MPI_ERR_AMODE	mpi.h	554;"	d
+MPI_ERR_ARG	mpi.h	546;"	d
+MPI_ERR_ASSERT	mpi.h	555;"	d
+MPI_ERR_BAD_FILE	mpi.h	556;"	d
+MPI_ERR_BASE	mpi.h	557;"	d
+MPI_ERR_BUFFER	mpi.h	534;"	d
+MPI_ERR_COMM	mpi.h	538;"	d
+MPI_ERR_CONVERSION	mpi.h	558;"	d
+MPI_ERR_COUNT	mpi.h	535;"	d
+MPI_ERR_DIMS	mpi.h	545;"	d
+MPI_ERR_DISP	mpi.h	559;"	d
+MPI_ERR_DUP_DATAREP	mpi.h	560;"	d
+MPI_ERR_FILE	mpi.h	563;"	d
+MPI_ERR_FILE_EXISTS	mpi.h	561;"	d
+MPI_ERR_FILE_IN_USE	mpi.h	562;"	d
+MPI_ERR_GROUP	mpi.h	542;"	d
+MPI_ERR_INFO	mpi.h	567;"	d
+MPI_ERR_INFO_KEY	mpi.h	564;"	d
+MPI_ERR_INFO_NOKEY	mpi.h	565;"	d
+MPI_ERR_INFO_VALUE	mpi.h	566;"	d
+MPI_ERR_INTERN	mpi.h	550;"	d
+MPI_ERR_IN_STATUS	mpi.h	551;"	d
+MPI_ERR_IO	mpi.h	568;"	d
+MPI_ERR_KEYVAL	mpi.h	569;"	d
+MPI_ERR_LASTCODE	mpi.h	609;"	d
+MPI_ERR_LOCKTYPE	mpi.h	570;"	d
+MPI_ERR_NAME	mpi.h	571;"	d
+MPI_ERR_NOT_SAME	mpi.h	573;"	d
+MPI_ERR_NO_MEM	mpi.h	572;"	d
+MPI_ERR_NO_SPACE	mpi.h	574;"	d
+MPI_ERR_NO_SUCH_FILE	mpi.h	575;"	d
+MPI_ERR_OP	mpi.h	543;"	d
+MPI_ERR_OTHER	mpi.h	549;"	d
+MPI_ERR_PENDING	mpi.h	552;"	d
+MPI_ERR_PORT	mpi.h	576;"	d
+MPI_ERR_QUOTA	mpi.h	577;"	d
+MPI_ERR_RANK	mpi.h	539;"	d
+MPI_ERR_READ_ONLY	mpi.h	578;"	d
+MPI_ERR_REQUEST	mpi.h	540;"	d
+MPI_ERR_RMA_ATTACH	mpi.h	602;"	d
+MPI_ERR_RMA_CONFLICT	mpi.h	579;"	d
+MPI_ERR_RMA_FLAVOR	mpi.h	603;"	d
+MPI_ERR_RMA_RANGE	mpi.h	601;"	d
+MPI_ERR_RMA_SHARED	mpi.h	604;"	d
+MPI_ERR_RMA_SYNC	mpi.h	580;"	d
+MPI_ERR_ROOT	mpi.h	541;"	d
+MPI_ERR_SERVICE	mpi.h	581;"	d
+MPI_ERR_SIZE	mpi.h	582;"	d
+MPI_ERR_SPAWN	mpi.h	583;"	d
+MPI_ERR_SYSRESOURCE	mpi.h	611;"	d
+MPI_ERR_TAG	mpi.h	537;"	d
+MPI_ERR_TOPOLOGY	mpi.h	544;"	d
+MPI_ERR_TRUNCATE	mpi.h	548;"	d
+MPI_ERR_TYPE	mpi.h	536;"	d
+MPI_ERR_UNKNOWN	mpi.h	547;"	d
+MPI_ERR_UNSUPPORTED_DATAREP	mpi.h	584;"	d
+MPI_ERR_UNSUPPORTED_OPERATION	mpi.h	585;"	d
+MPI_ERR_WIN	mpi.h	586;"	d
+MPI_Errhandler	mpi.h	/^typedef struct ompi_errhandler_t *MPI_Errhandler;$/;"	t	typeref:struct:ompi_errhandler_t
+MPI_FILE_NULL	mpi.h	746;"	d
+MPI_FLOAT	mpi.h	1046;"	d
+MPI_FLOAT_INT	mpi.h	1054;"	d
+MPI_File	mpi.h	/^typedef struct ompi_file_t *MPI_File;$/;"	t	typeref:struct:ompi_file_t
+MPI_File_errhandler_function	mpi.h	/^typedef ompi_file_errhandler_fn MPI_File_errhandler_function;$/;"	t
+MPI_Fint	mpi.h	214;"	d
+MPI_GRAPH	mpi.h	427;"	d
+MPI_GROUP_EMPTY	mpi.h	1019;"	d
+MPI_GROUP_NULL	mpi.h	737;"	d
+MPI_Grequest_cancel_function	mpi.h	/^typedef int (MPI_Grequest_cancel_function)(void *, int);$/;"	t
+MPI_Grequest_free_function	mpi.h	/^typedef int (MPI_Grequest_free_function)(void *);$/;"	t
+MPI_Grequest_query_function	mpi.h	/^typedef int (MPI_Grequest_query_function)(void *, MPI_Status *);$/;"	t
+MPI_Group	mpi.h	/^typedef struct ompi_group_t *MPI_Group;$/;"	t	typeref:struct:ompi_group_t
+MPI_HOST	mpi.h	/^    MPI_HOST,$/;"	e	enum:__anon1
+MPI_Handler_function	mpi.h	/^typedef void (MPI_Handler_function)(MPI_Comm *, int *, ...);$/;"	t
+MPI_IDENT	mpi.h	/^  MPI_IDENT,$/;"	e	enum:__anon2
+MPI_INFO_ENV	mpi.h	753;"	d
+MPI_INFO_NULL	mpi.h	743;"	d
+MPI_INT	mpi.h	1044;"	d
+MPI_INT16_T	mpi.h	1131;"	d
+MPI_INT32_T	mpi.h	1133;"	d
+MPI_INT64_T	mpi.h	1135;"	d
+MPI_INT8_T	mpi.h	1129;"	d
+MPI_INTEGER	mpi.h	1086;"	d
+MPI_INTEGER1	mpi.h	1088;"	d
+MPI_INTEGER16	mpi.h	1100;"	d
+MPI_INTEGER2	mpi.h	1091;"	d
+MPI_INTEGER4	mpi.h	1094;"	d
+MPI_INTEGER8	mpi.h	1097;"	d
+MPI_IN_PLACE	mpi.h	436;"	d
+MPI_IO	mpi.h	/^    MPI_IO,$/;"	e	enum:__anon1
+MPI_Info	mpi.h	/^typedef struct ompi_info_t *MPI_Info;$/;"	t	typeref:struct:ompi_info_t
+MPI_KEYVAL_INVALID	mpi.h	428;"	d
+MPI_LAND	mpi.h	1027;"	d
+MPI_LASTUSEDCODE	mpi.h	/^    MPI_LASTUSEDCODE,$/;"	e	enum:__anon1
+MPI_LB	mpi.h	1061;"	d
+MPI_LOCK_EXCLUSIVE	mpi.h	487;"	d
+MPI_LOCK_SHARED	mpi.h	488;"	d
+MPI_LOGICAL	mpi.h	1073;"	d
+MPI_LOGICAL1	mpi.h	1075;"	d
+MPI_LOGICAL2	mpi.h	1078;"	d
+MPI_LOGICAL4	mpi.h	1081;"	d
+MPI_LOGICAL8	mpi.h	1084;"	d
+MPI_LONG	mpi.h	1045;"	d
+MPI_LONG_DOUBLE	mpi.h	1048;"	d
+MPI_LONG_DOUBLE_INT	mpi.h	1056;"	d
+MPI_LONG_INT	mpi.h	1057;"	d
+MPI_LONG_LONG	mpi.h	1065;"	d
+MPI_LONG_LONG_INT	mpi.h	1064;"	d
+MPI_LOR	mpi.h	1029;"	d
+MPI_LXOR	mpi.h	1031;"	d
+MPI_MAX	mpi.h	1023;"	d
+MPI_MAXLOC	mpi.h	1033;"	d
+MPI_MAX_DATAREP_STRING	mpi.h	474;"	d
+MPI_MAX_ERROR_STRING	mpi.h	421;"	d
+MPI_MAX_INFO_KEY	mpi.h	438;"	d
+MPI_MAX_INFO_VAL	mpi.h	439;"	d
+MPI_MAX_LIBRARY_VERSION_STRING	mpi.h	423;"	d
+MPI_MAX_OBJECT_NAME	mpi.h	422;"	d
+MPI_MAX_PORT_NAME	mpi.h	443;"	d
+MPI_MAX_PROCESSOR_NAME	mpi.h	420;"	d
+MPI_MESSAGE_NO_PROC	mpi.h	1021;"	d
+MPI_MESSAGE_NULL	mpi.h	740;"	d
+MPI_MIN	mpi.h	1024;"	d
+MPI_MINLOC	mpi.h	1034;"	d
+MPI_MODE_APPEND	mpi.h	464;"	d
+MPI_MODE_CREATE	mpi.h	457;"	d
+MPI_MODE_DELETE_ON_CLOSE	mpi.h	461;"	d
+MPI_MODE_EXCL	mpi.h	463;"	d
+MPI_MODE_NOCHECK	mpi.h	481;"	d
+MPI_MODE_NOPRECEDE	mpi.h	482;"	d
+MPI_MODE_NOPUT	mpi.h	483;"	d
+MPI_MODE_NOSTORE	mpi.h	484;"	d
+MPI_MODE_NOSUCCEED	mpi.h	485;"	d
+MPI_MODE_RDONLY	mpi.h	458;"	d
+MPI_MODE_RDWR	mpi.h	460;"	d
+MPI_MODE_SEQUENTIAL	mpi.h	465;"	d
+MPI_MODE_UNIQUE_OPEN	mpi.h	462;"	d
+MPI_MODE_WRONLY	mpi.h	459;"	d
+MPI_Message	mpi.h	/^typedef struct ompi_message_t *MPI_Message;$/;"	t	typeref:struct:ompi_message_t
+MPI_NO_OP	mpi.h	1036;"	d
+MPI_NULL_COPY_FN	mpi.h	783;"	d
+MPI_NULL_DELETE_FN	mpi.h	782;"	d
+MPI_OFFSET	mpi.h	1138;"	d
+MPI_OP_NULL	mpi.h	741;"	d
+MPI_ORDER_C	mpi.h	444;"	d
+MPI_ORDER_FORTRAN	mpi.h	445;"	d
+MPI_Offset	mpi.h	/^typedef OMPI_MPI_OFFSET_TYPE MPI_Offset;$/;"	t
+MPI_Op	mpi.h	/^typedef struct ompi_op_t *MPI_Op;$/;"	t	typeref:struct:ompi_op_t
+MPI_PACKED	mpi.h	1041;"	d
+MPI_PROC_NULL	mpi.h	417;"	d
+MPI_PROD	mpi.h	1026;"	d
+MPI_REAL	mpi.h	1102;"	d
+MPI_REAL16	mpi.h	1110;"	d
+MPI_REAL4	mpi.h	1104;"	d
+MPI_REAL8	mpi.h	1107;"	d
+MPI_REPLACE	mpi.h	1035;"	d
+MPI_REQUEST_NULL	mpi.h	739;"	d
+MPI_ROOT	mpi.h	418;"	d
+MPI_Request	mpi.h	/^typedef struct ompi_request_t *MPI_Request;$/;"	t	typeref:struct:ompi_request_t
+MPI_SEEK_CUR	mpi.h	470;"	d
+MPI_SEEK_END	mpi.h	471;"	d
+MPI_SEEK_SET	mpi.h	469;"	d
+MPI_SHORT	mpi.h	1043;"	d
+MPI_SHORT_INT	mpi.h	1058;"	d
+MPI_SIGNED_CHAR	mpi.h	1050;"	d
+MPI_SIMILAR	mpi.h	/^  MPI_SIMILAR,$/;"	e	enum:__anon2
+MPI_SOURCE	mpi.h	/^    int MPI_SOURCE;$/;"	m	struct:ompi_status_public_t
+MPI_STATUSES_IGNORE	mpi.h	756;"	d
+MPI_STATUS_IGNORE	mpi.h	755;"	d
+MPI_SUBVERSION	mpi.h	240;"	d
+MPI_SUCCESS	mpi.h	533;"	d
+MPI_SUM	mpi.h	1025;"	d
+MPI_Status	mpi.h	/^typedef struct ompi_status_public_t MPI_Status;$/;"	t	typeref:struct:ompi_status_public_t
+MPI_TAG	mpi.h	/^    int MPI_TAG;$/;"	m	struct:ompi_status_public_t
+MPI_TAG_UB	mpi.h	/^    MPI_TAG_UB,$/;"	e	enum:__anon1
+MPI_THREAD_FUNNELED	mpi.h	/^  MPI_THREAD_FUNNELED,$/;"	e	enum:__anon3
+MPI_THREAD_MULTIPLE	mpi.h	/^  MPI_THREAD_MULTIPLE$/;"	e	enum:__anon3
+MPI_THREAD_SERIALIZED	mpi.h	/^  MPI_THREAD_SERIALIZED,$/;"	e	enum:__anon3
+MPI_THREAD_SINGLE	mpi.h	/^  MPI_THREAD_SINGLE,$/;"	e	enum:__anon3
+MPI_TYPECLASS_COMPLEX	mpi.h	1164;"	d
+MPI_TYPECLASS_INTEGER	mpi.h	1162;"	d
+MPI_TYPECLASS_REAL	mpi.h	1163;"	d
+MPI_TYPE_DUP_FN	mpi.h	788;"	d
+MPI_TYPE_NULL_COPY_FN	mpi.h	787;"	d
+MPI_TYPE_NULL_DELETE_FN	mpi.h	786;"	d
+MPI_T_BIND_MPI_COMM	mpi.h	/^  MPI_T_BIND_MPI_COMM,$/;"	e	enum:__anon8
+MPI_T_BIND_MPI_DATATYPE	mpi.h	/^  MPI_T_BIND_MPI_DATATYPE,$/;"	e	enum:__anon8
+MPI_T_BIND_MPI_ERRHANDLER	mpi.h	/^  MPI_T_BIND_MPI_ERRHANDLER,$/;"	e	enum:__anon8
+MPI_T_BIND_MPI_FILE	mpi.h	/^  MPI_T_BIND_MPI_FILE,$/;"	e	enum:__anon8
+MPI_T_BIND_MPI_GROUP	mpi.h	/^  MPI_T_BIND_MPI_GROUP,$/;"	e	enum:__anon8
+MPI_T_BIND_MPI_INFO	mpi.h	/^  MPI_T_BIND_MPI_INFO$/;"	e	enum:__anon8
+MPI_T_BIND_MPI_MESSAGE	mpi.h	/^  MPI_T_BIND_MPI_MESSAGE,$/;"	e	enum:__anon8
+MPI_T_BIND_MPI_OP	mpi.h	/^  MPI_T_BIND_MPI_OP,$/;"	e	enum:__anon8
+MPI_T_BIND_MPI_REQUEST	mpi.h	/^  MPI_T_BIND_MPI_REQUEST,$/;"	e	enum:__anon8
+MPI_T_BIND_MPI_WIN	mpi.h	/^  MPI_T_BIND_MPI_WIN,$/;"	e	enum:__anon8
+MPI_T_BIND_NO_OBJECT	mpi.h	/^  MPI_T_BIND_NO_OBJECT,$/;"	e	enum:__anon8
+MPI_T_CVAR_HANDLE_NULL	mpi.h	763;"	d
+MPI_T_ENUM_NULL	mpi.h	748;"	d
+MPI_T_ERR_CANNOT_INIT	mpi.h	589;"	d
+MPI_T_ERR_CVAR_SET_NEVER	mpi.h	597;"	d
+MPI_T_ERR_CVAR_SET_NOT_NOW	mpi.h	596;"	d
+MPI_T_ERR_INVALID_HANDLE	mpi.h	592;"	d
+MPI_T_ERR_INVALID_INDEX	mpi.h	590;"	d
+MPI_T_ERR_INVALID_ITEM	mpi.h	591;"	d
+MPI_T_ERR_INVALID_SESSION	mpi.h	595;"	d
+MPI_T_ERR_MEMORY	mpi.h	587;"	d
+MPI_T_ERR_NOT_INITIALIZED	mpi.h	588;"	d
+MPI_T_ERR_OUT_OF_HANDLES	mpi.h	593;"	d
+MPI_T_ERR_OUT_OF_SESSIONS	mpi.h	594;"	d
+MPI_T_ERR_PVAR_NO_ATOMIC	mpi.h	600;"	d
+MPI_T_ERR_PVAR_NO_STARTSTOP	mpi.h	598;"	d
+MPI_T_ERR_PVAR_NO_WRITE	mpi.h	599;"	d
+MPI_T_PVAR_ALL_HANDLES	mpi.h	761;"	d
+MPI_T_PVAR_CLASS_AGGREGATE	mpi.h	/^  MPI_T_PVAR_CLASS_AGGREGATE,$/;"	e	enum:__anon9
+MPI_T_PVAR_CLASS_COUNTER	mpi.h	/^  MPI_T_PVAR_CLASS_COUNTER,$/;"	e	enum:__anon9
+MPI_T_PVAR_CLASS_GENERIC	mpi.h	/^  MPI_T_PVAR_CLASS_GENERIC$/;"	e	enum:__anon9
+MPI_T_PVAR_CLASS_HIGHWATERMARK	mpi.h	/^  MPI_T_PVAR_CLASS_HIGHWATERMARK,$/;"	e	enum:__anon9
+MPI_T_PVAR_CLASS_LEVEL	mpi.h	/^  MPI_T_PVAR_CLASS_LEVEL,$/;"	e	enum:__anon9
+MPI_T_PVAR_CLASS_LOWWATERMARK	mpi.h	/^  MPI_T_PVAR_CLASS_LOWWATERMARK,$/;"	e	enum:__anon9
+MPI_T_PVAR_CLASS_PERCENTAGE	mpi.h	/^  MPI_T_PVAR_CLASS_PERCENTAGE,$/;"	e	enum:__anon9
+MPI_T_PVAR_CLASS_SIZE	mpi.h	/^  MPI_T_PVAR_CLASS_SIZE,$/;"	e	enum:__anon9
+MPI_T_PVAR_CLASS_STATE	mpi.h	/^  MPI_T_PVAR_CLASS_STATE,$/;"	e	enum:__anon9
+MPI_T_PVAR_CLASS_TIMER	mpi.h	/^  MPI_T_PVAR_CLASS_TIMER,$/;"	e	enum:__anon9
+MPI_T_PVAR_HANDLE_NULL	mpi.h	762;"	d
+MPI_T_SCOPE_ALL	mpi.h	/^  MPI_T_SCOPE_ALL,$/;"	e	enum:__anon7
+MPI_T_SCOPE_ALL_EQ	mpi.h	/^  MPI_T_SCOPE_ALL_EQ$/;"	e	enum:__anon7
+MPI_T_SCOPE_CONSTANT	mpi.h	/^  MPI_T_SCOPE_CONSTANT,$/;"	e	enum:__anon7
+MPI_T_SCOPE_GROUP	mpi.h	/^  MPI_T_SCOPE_GROUP,$/;"	e	enum:__anon7
+MPI_T_SCOPE_GROUP_EQ	mpi.h	/^  MPI_T_SCOPE_GROUP_EQ,$/;"	e	enum:__anon7
+MPI_T_SCOPE_LOCAL	mpi.h	/^  MPI_T_SCOPE_LOCAL,$/;"	e	enum:__anon7
+MPI_T_SCOPE_READONLY	mpi.h	/^  MPI_T_SCOPE_READONLY,$/;"	e	enum:__anon7
+MPI_T_VERBOSITY_MPIDEV_ALL	mpi.h	/^  MPI_T_VERBOSITY_MPIDEV_ALL$/;"	e	enum:__anon6
+MPI_T_VERBOSITY_MPIDEV_BASIC	mpi.h	/^  MPI_T_VERBOSITY_MPIDEV_BASIC,$/;"	e	enum:__anon6
+MPI_T_VERBOSITY_MPIDEV_DETAIL	mpi.h	/^  MPI_T_VERBOSITY_MPIDEV_DETAIL,$/;"	e	enum:__anon6
+MPI_T_VERBOSITY_TUNER_ALL	mpi.h	/^  MPI_T_VERBOSITY_TUNER_ALL,$/;"	e	enum:__anon6
+MPI_T_VERBOSITY_TUNER_BASIC	mpi.h	/^  MPI_T_VERBOSITY_TUNER_BASIC,$/;"	e	enum:__anon6
+MPI_T_VERBOSITY_TUNER_DETAIL	mpi.h	/^  MPI_T_VERBOSITY_TUNER_DETAIL,$/;"	e	enum:__anon6
+MPI_T_VERBOSITY_USER_ALL	mpi.h	/^  MPI_T_VERBOSITY_USER_ALL,$/;"	e	enum:__anon6
+MPI_T_VERBOSITY_USER_BASIC	mpi.h	/^  MPI_T_VERBOSITY_USER_BASIC,$/;"	e	enum:__anon6
+MPI_T_VERBOSITY_USER_DETAIL	mpi.h	/^  MPI_T_VERBOSITY_USER_DETAIL,$/;"	e	enum:__anon6
+MPI_T_cvar_handle	mpi.h	/^typedef struct ompi_mpit_cvar_handle_t *MPI_T_cvar_handle;$/;"	t	typeref:struct:ompi_mpit_cvar_handle_t
+MPI_T_enum	mpi.h	/^typedef struct mca_base_var_enum_t *MPI_T_enum;$/;"	t	typeref:struct:mca_base_var_enum_t
+MPI_T_pvar_handle	mpi.h	/^typedef struct mca_base_pvar_handle_t *MPI_T_pvar_handle;$/;"	t	typeref:struct:mca_base_pvar_handle_t
+MPI_T_pvar_session	mpi.h	/^typedef struct mca_base_pvar_session_t *MPI_T_pvar_session;$/;"	t	typeref:struct:mca_base_pvar_session_t
+MPI_Type_copy_attr_function	mpi.h	/^typedef int (MPI_Type_copy_attr_function)(MPI_Datatype, int, void *,$/;"	t
+MPI_Type_delete_attr_function	mpi.h	/^typedef int (MPI_Type_delete_attr_function)(MPI_Datatype, int,$/;"	t
+MPI_UB	mpi.h	1060;"	d
+MPI_UINT16_T	mpi.h	1132;"	d
+MPI_UINT32_T	mpi.h	1134;"	d
+MPI_UINT64_T	mpi.h	1136;"	d
+MPI_UINT8_T	mpi.h	1130;"	d
+MPI_UNDEFINED	mpi.h	424;"	d
+MPI_UNEQUAL	mpi.h	/^  MPI_UNEQUAL$/;"	e	enum:__anon2
+MPI_UNIVERSE_SIZE	mpi.h	/^    MPI_UNIVERSE_SIZE,$/;"	e	enum:__anon1
+MPI_UNSIGNED	mpi.h	1053;"	d
+MPI_UNSIGNED_CHAR	mpi.h	1049;"	d
+MPI_UNSIGNED_LONG	mpi.h	1052;"	d
+MPI_UNSIGNED_LONG_LONG	mpi.h	1066;"	d
+MPI_UNSIGNED_SHORT	mpi.h	1051;"	d
+MPI_UNWEIGHTED	mpi.h	433;"	d
+MPI_User_function	mpi.h	/^typedef void (MPI_User_function)(void *, void *, int *, MPI_Datatype *);$/;"	t
+MPI_VERSION	mpi.h	239;"	d
+MPI_WCHAR	mpi.h	1062;"	d
+MPI_WEIGHTS_EMPTY	mpi.h	434;"	d
+MPI_WIN_BASE	mpi.h	/^    MPI_WIN_BASE,$/;"	e	enum:__anon1
+MPI_WIN_CREATE_FLAVOR	mpi.h	/^    MPI_WIN_CREATE_FLAVOR,$/;"	e	enum:__anon1
+MPI_WIN_DISP_UNIT	mpi.h	/^    MPI_WIN_DISP_UNIT,$/;"	e	enum:__anon1
+MPI_WIN_DUP_FN	mpi.h	796;"	d
+MPI_WIN_FLAVOR_ALLOCATE	mpi.h	491;"	d
+MPI_WIN_FLAVOR_CREATE	mpi.h	490;"	d
+MPI_WIN_FLAVOR_DYNAMIC	mpi.h	492;"	d
+MPI_WIN_FLAVOR_SHARED	mpi.h	493;"	d
+MPI_WIN_MODEL	mpi.h	/^    MPI_WIN_MODEL,$/;"	e	enum:__anon1
+MPI_WIN_NULL	mpi.h	744;"	d
+MPI_WIN_NULL_COPY_FN	mpi.h	795;"	d
+MPI_WIN_NULL_DELETE_FN	mpi.h	794;"	d
+MPI_WIN_SEPARATE	mpi.h	496;"	d
+MPI_WIN_SIZE	mpi.h	/^    MPI_WIN_SIZE,$/;"	e	enum:__anon1
+MPI_WIN_UNIFIED	mpi.h	495;"	d
+MPI_WTIME_IS_GLOBAL	mpi.h	/^    MPI_WTIME_IS_GLOBAL,$/;"	e	enum:__anon1
+MPI_Win	mpi.h	/^typedef struct ompi_win_t *MPI_Win;$/;"	t	typeref:struct:ompi_win_t
+MPI_Win_copy_attr_function	mpi.h	/^typedef int (MPI_Win_copy_attr_function)(MPI_Win, int, void *,$/;"	t
+MPI_Win_delete_attr_function	mpi.h	/^typedef int (MPI_Win_delete_attr_function)(MPI_Win, int, void *, void *);$/;"	t
+MPI_Win_errhandler_function	mpi.h	/^typedef void (MPI_Win_errhandler_function)(MPI_Win *, int *, ...);$/;"	t
+NQ	ADI.c	6;"	d	file:
+NQ	DADI.c	6;"	d	file:
+NQ	DualADI.c	6;"	d	file:
+NQ	communication.c	5;"	d	file:
+NQ	communicationLinear.c	5;"	d	file:
+NQ	findDiagonals.c	5;"	d	file:
+NQ	gaussSeidel.c	6;"	d	file:
+NQ	initflow.c	13;"	d	file:
+NQ	lineGaussSeidel.c	6;"	d	file:
+NQ	lineGaussSeidel1.c	6;"	d	file:
+NQ	lineGaussSeidel_ogiginal.c	6;"	d	file:
+NQ	readGrid.c	22;"	d	file:
+NVAR	ham2dFunctionDefs.h	11;"	d
+OBJECTS	makefile	/^OBJECTS = ham2d.o readGrid.o preprocess.o find_faces.o\\$/;"	m
+OMPI_BUILDING	mpi.h	227;"	d
+OMPI_BUILD_CXX_BINDINGS	mpi.h	157;"	d
+OMPI_CXX_SUPPORTS_2D_CONST_CAST	mpi.h	163;"	d
+OMPI_DECLSPEC	mpi.h	199;"	d
+OMPI_DECLSPEC	mpi.h	201;"	d
+OMPI_DECLSPEC	mpi.h	205;"	d
+OMPI_DECLSPEC	mpi.h	207;"	d
+OMPI_HAVE_CXX_EXCEPTION_SUPPORT	mpi.h	176;"	d
+OMPI_HAVE_FORTRAN_INTEGER1	mpi.h	106;"	d
+OMPI_HAVE_FORTRAN_INTEGER16	mpi.h	109;"	d
+OMPI_HAVE_FORTRAN_INTEGER2	mpi.h	112;"	d
+OMPI_HAVE_FORTRAN_INTEGER4	mpi.h	115;"	d
+OMPI_HAVE_FORTRAN_INTEGER8	mpi.h	118;"	d
+OMPI_HAVE_FORTRAN_LOGICAL1	mpi.h	94;"	d
+OMPI_HAVE_FORTRAN_LOGICAL2	mpi.h	97;"	d
+OMPI_HAVE_FORTRAN_LOGICAL4	mpi.h	100;"	d
+OMPI_HAVE_FORTRAN_LOGICAL8	mpi.h	103;"	d
+OMPI_HAVE_FORTRAN_REAL16	mpi.h	121;"	d
+OMPI_HAVE_FORTRAN_REAL2	mpi.h	124;"	d
+OMPI_HAVE_FORTRAN_REAL4	mpi.h	127;"	d
+OMPI_HAVE_FORTRAN_REAL8	mpi.h	130;"	d
+OMPI_MAJOR_VERSION	mpi.h	179;"	d
+OMPI_MINOR_VERSION	mpi.h	180;"	d
+OMPI_MPI_COUNT_TYPE	mpi.h	151;"	d
+OMPI_MPI_H	mpi.h	27;"	d
+OMPI_MPI_OFFSET_SIZE	mpi.h	148;"	d
+OMPI_MPI_OFFSET_TYPE	mpi.h	142;"	d
+OMPI_OFFSET_DATATYPE	mpi.h	145;"	d
+OMPI_PARAM_CHECK	mpi.h	166;"	d
+OMPI_PREDEFINED_GLOBAL	mpi.h	308;"	d
+OMPI_PREDEFINED_GLOBAL	mpi.h	310;"	d
+OMPI_PROVIDE_MPI_FILE_INTERFACE	mpi.h	194;"	d
+OMPI_RELEASE_VERSION	mpi.h	181;"	d
+OMPI_WANT_MPI_CXX_SEEK	mpi.h	160;"	d
+OMPI_WANT_MPI_INTERFACE_WARNING	mpi.h	172;"	d
+OPAL_BUILD_PLATFORM_COMPILER_FAMILYID	mpi.h	43;"	d
+OPAL_BUILD_PLATFORM_COMPILER_VERSION	mpi.h	46;"	d
+OPAL_C_HAVE_VISIBILITY	mpi.h	191;"	d
+OPAL_HAVE_ATTRIBUTE_DEPRECATED	mpi.h	52;"	d
+OPAL_HAVE_ATTRIBUTE_DEPRECATED_ARGUMENT	mpi.h	55;"	d
+OPAL_HAVE_LONG_LONG	mpi.h	64;"	d
+OPAL_HAVE_SYS_TIME_H	mpi.h	58;"	d
+OPAL_MAX_DATAREP_STRING	mpi.h	73;"	d
+OPAL_MAX_ERROR_STRING	mpi.h	76;"	d
+OPAL_MAX_INFO_KEY	mpi.h	79;"	d
+OPAL_MAX_INFO_VAL	mpi.h	82;"	d
+OPAL_MAX_OBJECT_NAME	mpi.h	85;"	d
+OPAL_MAX_PORT_NAME	mpi.h	88;"	d
+OPAL_MAX_PROCESSOR_NAME	mpi.h	91;"	d
+OPAL_PTRDIFF_TYPE	mpi.h	154;"	d
+OPAL_STDC_HEADERS	mpi.h	49;"	d
+OPEN_MPI	mpi.h	234;"	d
+Q	ham2dtypes.h	/^  double **Q;$/;"	m	struct:GRID
+RAMPEND	ham2dFunctionDefs.h	16;"	d
+RAMPSTART	ham2dFunctionDefs.h	15;"	d
+REAL	mathops.c	3;"	d	file:
+REAL	triSolvers.c	4;"	d	file:
+SOLN	ham2dtypes.h	/^typedef struct SOLN$/;"	s
+SOLN	ham2dtypes.h	/^} SOLN;$/;"	t	typeref:struct:SOLN
+TOL	ham2dFunctionDefs.h	12;"	d
+TWOTHIRD	ham2dFunctionDefs.h	8;"	d
+__mpi_interface_deprecated__	mpi.h	269;"	d
+__mpi_interface_deprecated__	mpi.h	271;"	d
+__mpi_interface_deprecated__	mpi.h	284;"	d
+_cancelled	mpi.h	/^    int _cancelled;$/;"	m	struct:ompi_status_public_t
+_ucount	mpi.h	/^    size_t _ucount;$/;"	m	struct:ompi_status_public_t
+addTemporalSource	addTemporalSource.c	/^void addTemporalSource(GRID *g, SOLN *s,double cflnum, double dt, int istep)$/;"	f
+alpha	ham2dtypes.h	/^  double mach,alpha,rey;$/;"	m	struct:SOLN
+apply_periodic	apply_periodic.c	/^void apply_periodic(GRID *g,int f1, int f2, int m)$/;"	f
+apply_periodic_LHS	apply_periodic_LHS.c	/^void apply_periodic_LHS(GRID *g,int f1, int f2, int m)$/;"	f
+axb	mathops.c	/^void axb(REAL A[4][4],REAL *x,REAL *x0,REAL *b,REAL fac,int N)$/;"	f
+axb1	mathops.c	/^void axb1(REAL A[4][4],REAL *x,REAL *b,REAL fac,int N)$/;"	f
+bf1	ham2dtypes.h	/^  int bf1[5000];$/;"	m	struct:GRID
+bf1_neigf	ham2dtypes.h	/^  int bf1_neigf[5000][3];$/;"	m	struct:GRID
+bf2	ham2dtypes.h	/^  int bf2[5000];$/;"	m	struct:GRID
+bf2_neigf	ham2dtypes.h	/^  int bf2_neigf[5000][3];$/;"	m	struct:GRID
+bf3	ham2dtypes.h	/^  int bf3[5000];$/;"	m	struct:GRID
+bf3_neigf	ham2dtypes.h	/^  int bf3_neigf[5000][3];$/;"	m	struct:GRID
+bf4	ham2dtypes.h	/^  int bf4[5000];$/;"	m	struct:GRID
+bf4_neigf	ham2dtypes.h	/^  int bf4_neigf[5000][3];$/;"	m	struct:GRID
+bfaces	ham2dtypes.h	/^  int    *bfaces; \/\/ list of boundary faces$/;"	m	struct:GRID
+blockInv	triSolvers.c	/^void blockInv(REAL ***a,REAL ***b, REAL ***c,REAL **f, int N,int nq)  {$/;"	f
+blockTridag	triSolvers.c	/^void blockTridag(REAL ***a,REAL ***b, REAL ***c,REAL **f, int N,int nq)  $/;"	f
+blockTridag4	triSolvers.c	/^void blockTridag4(REAL ***a,REAL ***b, REAL ***c,REAL **f, int N,int nq)  $/;"	f
+blockTridagPeriodic	triSolvers.c	/^void blockTridagPeriodic(REAL ***a,REAL ***b, REAL ***c,REAL **f, int N,int nq)  $/;"	f
+blockTridagPeriodic4	triSolvers.c	/^void blockTridagPeriodic4(REAL ***a,REAL ***b, REAL ***c,REAL **f, int N,int nq)  $/;"	f
+c2b	ham2dtypes.h	/^  double gm1,c2b,rgas,pr,prtr;$/;"	m	struct:SOLN
+c2chain	ham2dtypes.h	/^  int    *c2chain;$/;"	m	struct:GRID
+c2f	ham2dtypes.h	/^  int    *c2f;$/;"	m	struct:GRID
+cd	ham2dtypes.h	/^  double cl,cd,cy,cx;$/;"	m	struct:SOLN
+cflnum	ham2dtypes.h	/^  double cflnum;$/;"	m	struct:SOLN
+chainConn	ham2dtypes.h	/^  int    *chainConn;         \/\/ face connectivity for each chain$/;"	m	struct:GRID
+chainsPerColor	ham2dtypes.h	/^  int    *chainsPerColor;    \/\/ number of chains per color$/;"	m	struct:GRID
+cindx	ham2dtypes.h	/^  int    *cindx;$/;"	m	struct:GRID
+cl	ham2dtypes.h	/^  double cl,cd,cy,cx;$/;"	m	struct:SOLN
+communication	communication.c	/^  void communication(GRID *g, SOLN *s,int myid)$/;"	f
+communicationLinear	communicationLinear.c	/^  void communicationLinear(GRID *g, SOLN *s,int myid)$/;"	f
+computeForce	computeForce.c	/^void computeForce(GRID *g,SOLN *s)$/;"	f
+computeLinearRHS	computeLinearRHS.c	/^void computeLinearRHS(GRID *g,SOLN *s,double cflnum,double *l2rho,int myid)$/;"	f
+computeRHS	computeRHS.c	/^void computeRHS(GRID *g,SOLN *s,double *l2rho, int myid)$/;"	f
+computeRHS	ref.c	/^void computeRHS(GRID *g,SOLN *s,double *l2rho)$/;"	f
+computeRHSk	computeRHSk.c	/^void computeRHSk(GRID *g,SOLN *s,double *l2rho, int myid)$/;"	f
+computeRHSk	computeRHSk_copy.c	/^void computeRHSk(GRID *g,SOLN *s,double *l2rho)$/;"	f
+computeRHSkv	computeRHSkv.c	/^void computeRHSkv(GRID *g,SOLN *s,double *l2rho)$/;"	f
+computeTimeScaling	computeTimeScaling.c	/^void computeTimeScaling(GRID *g, SOLN *s,double cflnum,double dt,int istep)$/;"	f
+conn	ham2dtypes.h	/^  int    *conn;              \/\/ connectivity of nodes$/;"	m	struct:GRID
+conn	test_faces.f90	/^  integer, allocatable :: conn(/;"	v	program:test_faces
+ctype	ham2dtypes.h	/^  int    *ctype;$/;"	m	struct:GRID
+cx	ham2dtypes.h	/^  double cl,cd,cy,cx;$/;"	m	struct:SOLN
+cy	ham2dtypes.h	/^  double cl,cd,cy,cx;$/;"	m	struct:SOLN
+ddq	ham2dtypes.h	/^  double *ddq;   \/\/ \\delta\\delta q - variables [rho rho*u rho*v e]$/;"	m	struct:SOLN
+ddqb	ham2dtypes.h	/^  double *ddqb;  \/\/ \\delta\\delta q - variables [rho rho*u rho*v e]$/;"	m	struct:SOLN
+ddqf	ham2dtypes.h	/^  double *ddqf;  \/\/ \\delta\\delta q - variables [rho rho*u rho*v e]$/;"	m	struct:SOLN
+deg2rad	ham2dFunctionDefs.h	7;"	d
+deps	stepSolution.c	14;"	d	file:
+df	ham2dtypes.h	/^  double **df;$/;"	m	struct:GRID
+dpsil	ham2dtypes.h	/^  double **psil,**psila,**psilb,**dpsil,**dpsila,**dpsilb;$/;"	m	struct:GRID
+dpsil_deri	ham2dtypes.h	/^  double **psil_deri,**psila_deri,**dpsil_deri,**dpsila_deri,**psilb_deri,**dpsilb_deri;$/;"	m	struct:GRID
+dpsila	ham2dtypes.h	/^  double **psil,**psila,**psilb,**dpsil,**dpsila,**dpsilb;$/;"	m	struct:GRID
+dpsila_deri	ham2dtypes.h	/^  double **psil_deri,**psila_deri,**dpsil_deri,**dpsila_deri,**psilb_deri,**dpsilb_deri;$/;"	m	struct:GRID
+dpsilb	ham2dtypes.h	/^  double **psil,**psila,**psilb,**dpsil,**dpsila,**dpsilb;$/;"	m	struct:GRID
+dpsilb_deri	ham2dtypes.h	/^  double **psil_deri,**psila_deri,**dpsil_deri,**dpsila_deri,**psilb_deri,**dpsilb_deri;$/;"	m	struct:GRID
+dq	ham2dtypes.h	/^  double *dq;    \/\/ \\delta q -variables [rho rho*u rho*v e]$/;"	m	struct:SOLN
+dql	ham2dtypes.h	/^  double **dql;$/;"	m	struct:GRID
+dqr	ham2dtypes.h	/^  double **dqr;$/;"	m	struct:GRID
+dtac	ham2dtypes.h	/^  double *dtac;  \/\/ time scaling - nominally equaly to dt\/dv but can be $/;"	m	struct:SOLN
+einf	ham2dtypes.h	/^  double uinf,vinf,einf;$/;"	m	struct:SOLN
+f	ham2dtypes.h	/^  double **f;$/;"	m	struct:GRID
+f2	ham2dtypes.h	/^  double **f2;$/;"	m	struct:GRID
+faceMat	ham2dtypes.h	/^typedef struct faceMat$/;"	s
+faceMat	ham2dtypes.h	/^} faceMat;$/;"	t	typeref:struct:faceMat
+faceStartPerChain	ham2dtypes.h	/^  int    *faceStartPerChain; \/\/ number of faces per chain$/;"	m	struct:GRID
+faces	ham2dtypes.h	/^  int    *faces;  \/\/ list of faces$/;"	m	struct:GRID
+faces	test_faces.f90	/^  integer, allocatable :: faces(/;"	v	program:test_faces
+ff	ham2dtypes.h	/^  faceMat *ff;$/;"	m	struct:GRID
+findDiagonals	findDiagonals.c	/^void findDiagonals(GRID *g, SOLN *s,double cflnum,double dt)$/;"	f
+find_edges	find_faces1.c	/^void find_edges(int *conn,int *neig,int *faces,int *ncells,int *nv)$/;"	f
+find_faces	find_faces.c	/^void find_faces(int *bface,$/;"	f
+find_faces	find_faces1.c	/^void find_faces(int *bface,$/;"	f
+flux_roe	flux_roe.f90	/^subroutine flux_roe(/;"	s
+flux_roe2d	flux_roe2d.f90	/^subroutine flux_roe2d(/;"	s
+flux_visc	flux_visc.f90	/^subroutine flux_visc(/;"	s
+flux_visc_2d	flux_visc.f90	/^subroutine flux_visc_2d(/;"	s
+fv	ham2dtypes.h	/^  double **fv;$/;"	m	struct:GRID
+gamm	ham2dFunctionDefs.h	5;"	d
+gaussSeidel	gaussSeidel.c	/^void gaussSeidel(GRID *g,SOLN *s,double cflnum,double dt,int myid)$/;"	f
+gm1	ham2dtypes.h	/^  double gm1,c2b,rgas,pr,prtr;$/;"	m	struct:SOLN
+iadjp	ham2dtypes.h	/^  int    *icommu, *iadjp, *istp, *ilengp, *isend, *irecv, *irecvconn,*qconni, *idup; \/\/ list of communication$/;"	m	struct:GRID
+icommu	ham2dtypes.h	/^  int    *icommu, *iadjp, *istp, *ilengp, *isend, *irecv, *irecvconn,*qconni, *idup; \/\/ list of communication$/;"	m	struct:GRID
+idual	ham2dtypes.h	/^  int idual;$/;"	m	struct:SOLN
+idup	ham2dtypes.h	/^  int    *icommu, *iadjp, *istp, *ilengp, *isend, *irecv, *irecvconn,*qconni, *idup; \/\/ list of communication$/;"	m	struct:GRID
+ilengp	ham2dtypes.h	/^  int    *icommu, *iadjp, *istp, *ilengp, *isend, *irecv, *irecvconn,*qconni, *idup; \/\/ list of communication$/;"	m	struct:GRID
+initflow	initflow.c	/^void initflow(GRID *g,SOLN *s, int irest, int myid)$/;"	f
+insert_edge	find_faces.c	/^void insert_edge(int cellindx,int faceindx,$/;"	f
+insert_edge	find_faces1.c	/^void insert_edge(int cellindx,int faceindx,$/;"	f
+invertMat4	mathops.c	/^void invertMat4(REAL A[4][4],$/;"	f
+invertMat5	mathops.c	/^void invertMat5(REAL A[5][5],$/;"	f
+irecv	ham2dtypes.h	/^  int    *icommu, *iadjp, *istp, *ilengp, *isend, *irecv, *irecvconn,*qconni, *idup; \/\/ list of communication$/;"	m	struct:GRID
+irecvconn	ham2dtypes.h	/^  int    *icommu, *iadjp, *istp, *ilengp, *isend, *irecv, *irecvconn,*qconni, *idup; \/\/ list of communication$/;"	m	struct:GRID
+isend	ham2dtypes.h	/^  int    *icommu, *iadjp, *istp, *ilengp, *isend, *irecv, *irecvconn,*qconni, *idup; \/\/ list of communication$/;"	m	struct:GRID
+istp	ham2dtypes.h	/^  int    *icommu, *iadjp, *istp, *ilengp, *isend, *irecv, *irecvconn,*qconni, *idup; \/\/ list of communication$/;"	m	struct:GRID
+itag	ham2dtypes.h	/^  int *itag;$/;"	m	struct:SOLN
+jac_roe	jac_roe.f90	/^subroutine jac_roe(/;"	s
+jac_roe2d	jac_roe.f90	/^subroutine jac_roe2d(/;"	s
+jac_visc	jac_visc.F90	/^subroutine jac_visc(/;"	s
+jac_visc_2d	jac_visc.F90	/^subroutine jac_visc_2d(/;"	s
+l2norm	ham2dtypes.h	/^  double l2norm;$/;"	m	struct:SOLN
+lineGaussSeidel	lineGaussSeidel.c	/^void lineGaussSeidel(GRID *g,SOLN *s,double cflnum,double dt,int myid)$/;"	f
+lineGaussSeidel	lineGaussSeidel_ogiginal.c	/^void lineGaussSeidel(GRID *g,SOLN *s,double cflnum,double dt)$/;"	f
+lineGaussSeidel1	lineGaussSeidel1.c	/^void lineGaussSeidel1(GRID *g,SOLN *s,double cflnum,double dt)$/;"	f
+lmat	ham2dtypes.h	/^  double lmat[4][4];$/;"	m	struct:faceMat
+m1	ham2dtypes.h	/^  int m1,m2,m3,m4;$/;"	m	struct:GRID
+m2	ham2dtypes.h	/^  int m1,m2,m3,m4;$/;"	m	struct:GRID
+m3	ham2dtypes.h	/^  int m1,m2,m3,m4;$/;"	m	struct:GRID
+m4	ham2dtypes.h	/^  int m1,m2,m3,m4;$/;"	m	struct:GRID
+mach	ham2dtypes.h	/^  double mach,alpha,rey;$/;"	m	struct:SOLN
+main	ham2d.c	/^int main(int argc, char **argv)$/;"	f
+main	mathops.c	/^int main()$/;"	f
+matInv5	triSolvers.c	/^void matInv5(REAL *f1, REAL *f2, REAL *f3,REAL *f4,REAL *f5,int nq)  {$/;"	f
+max	ham2dtypes.h	123;"	d
+min	ham2dtypes.h	124;"	d
+msweep	ham2dtypes.h	/^  int    msweep;$/;"	m	struct:GRID
+muscld	muscld.c	/^void muscld(double **f, \/\/ array of cons. fluxes at each edge$/;"	f
+muscld_deriv	muscld_deriv.c	/^void muscld_deriv(double **f,$/;"	f
+nadjp	ham2dtypes.h	/^  int    ncommu,nadjp;$/;"	m	struct:GRID
+nbfaces	ham2dtypes.h	/^  int    nbfaces; \/\/ total number of boundary faces$/;"	m	struct:GRID
+ncells	ham2dtypes.h	/^  int    ncells;  \/\/ total number of quadrilatera$/;"	m	struct:GRID
+nchainFaces	ham2dtypes.h	/^  int    nchainFaces; \/\/ total number of faces in the chainConn list$/;"	m	struct:GRID
+nchains	ham2dtypes.h	/^  int    nchains; \/\/ total number of chains$/;"	m	struct:GRID
+ncolors	ham2dtypes.h	/^  int    ncolors; \/\/ total number of colors for chains$/;"	m	struct:GRID
+ncommu	ham2dtypes.h	/^  int    ncommu,nadjp;$/;"	m	struct:GRID
+ndual	ham2dtypes.h	/^  int ndual;$/;"	m	struct:SOLN
+nearBodyRadius	periodic_bc.c	6;"	d	file:
+nearBodyRadius	preprocess.c	17;"	d	file:
+neig	ham2dtypes.h	/^  int    *neig;   \/\/ list of neighbors$/;"	m	struct:GRID
+neig	test_faces.f90	/^  integer, allocatable :: neig(/;"	v	program:test_faces
+nfaces	ham2dtypes.h	/^  int    nfaces;  \/\/ total number of faces$/;"	m	struct:GRID
+nmaxchain	ham2dtypes.h	/^  int    nmaxchain;$/;"	m	struct:GRID
+nnodes	ham2dtypes.h	/^  int    nnodes;  \/\/ total number of nodes$/;"	m	struct:GRID
+nt	ham2dtypes.h	/^  int    nt;      \/\/ total number of iteration$/;"	m	struct:SOLN
+ntcells	ham2dtypes.h	/^  int    ntcells;$/;"	m	struct:GRID
+ntnodes	ham2dtypes.h	/^  int    ntnodes;$/;"	m	struct:GRID
+ompi_file_errhandler_fn	mpi.h	/^typedef void (ompi_file_errhandler_fn)(MPI_File *, int *, ...);$/;"	t
+ompi_file_errhandler_fn	mpi.h	/^typedef void (ompi_file_errhandler_fn)(struct ompi_file_t**, int *, ...);$/;"	t
+ompi_fortran_bogus_type_t	mpi.h	185;"	d
+ompi_fortran_integer_t	mpi.h	188;"	d
+ompi_status_public_t	mpi.h	/^struct ompi_status_public_t {$/;"	s
+ompi_status_public_t	mpi.h	/^typedef struct ompi_status_public_t ompi_status_public_t;$/;"	t	typeref:struct:ompi_status_public_t
+order	ham2dtypes.h	/^  int    order;   \/\/ solution order on this grid$/;"	m	struct:GRID
+outputSolution	outputSolution.c	/^void outputSolution(GRID *g,SOLN *s,int nn,int myid, int nproc)$/;"	f
+outputSolution2	outputSolution2.c	/^void outputSolution2(GRID *g,SOLN *s,int nn,int myid, int nproc)$/;"	f
+outputdq	outputSolution.c	/^void outputdq(GRID *g,SOLN *s)$/;"	f
+outputr	outputSolution.c	/^void outputr(GRID *g,SOLN *s)$/;"	f
+pentSolve	triSolvers.c	/^void pentSolve(REAL *a,REAL *b,REAL *c,REAL *d,REAL *e,REAL *f,int N)	{$/;"	f
+periodic_bc	periodic_bc.c	/^void periodic_bc(GRID *g)$/;"	f
+pinf	ham2dFunctionDefs.h	6;"	d
+pq	ham2dtypes.h	/^  double *pq;     \/\/ pseudo q -variables [rho rho*u rho*v e]$/;"	m	struct:SOLN
+pr	ham2dtypes.h	/^  double gm1,c2b,rgas,pr,prtr;$/;"	m	struct:SOLN
+preprocess	preprocess.c	/^void preprocess(GRID *g,int myid)$/;"	f
+prtr	ham2dtypes.h	/^  double gm1,c2b,rgas,pr,prtr;$/;"	m	struct:SOLN
+psil	ham2dtypes.h	/^  double **psil,**psila,**psilb,**dpsil,**dpsila,**dpsilb;$/;"	m	struct:GRID
+psil_deri	ham2dtypes.h	/^  double **psil_deri,**psila_deri,**dpsil_deri,**dpsila_deri,**psilb_deri,**dpsilb_deri;$/;"	m	struct:GRID
+psila	ham2dtypes.h	/^  double **psil,**psila,**psilb,**dpsil,**dpsila,**dpsilb;$/;"	m	struct:GRID
+psila_deri	ham2dtypes.h	/^  double **psil_deri,**psila_deri,**dpsil_deri,**dpsila_deri,**psilb_deri,**dpsilb_deri;$/;"	m	struct:GRID
+psilb	ham2dtypes.h	/^  double **psil,**psila,**psilb,**dpsil,**dpsila,**dpsilb;$/;"	m	struct:GRID
+psilb_deri	ham2dtypes.h	/^  double **psil_deri,**psila_deri,**dpsil_deri,**dpsila_deri,**psilb_deri,**dpsilb_deri;$/;"	m	struct:GRID
+q	ham2dtypes.h	/^  double *q;     \/\/ q -variables [rho rho*u rho*v e]$/;"	m	struct:SOLN
+qconni	ham2dtypes.h	/^  int    *icommu, *iadjp, *istp, *ilengp, *isend, *irecv, *irecvconn,*qconni, *idup; \/\/ list of communication$/;"	m	struct:GRID
+ql	ham2dtypes.h	/^  double **ql;$/;"	m	struct:GRID
+qr	ham2dtypes.h	/^  double **qr;$/;"	m	struct:GRID
+qt	ham2dtypes.h	/^  double *qt;$/;"	m	struct:SOLN
+qtt	ham2dtypes.h	/^  double *qtt;$/;"	m	struct:SOLN
+r	ham2dtypes.h	/^  double *r;     \/\/ solution residual at cell centroids$/;"	m	struct:SOLN
+r0	ham2dtypes.h	/^  double *r0;    \/\/ solution residual at cell centroids$/;"	m	struct:SOLN
+readGrid	readGrid.c	/^void readGrid(GRID *g,int myid, int nproc)$/;"	f
+res0	ham2dtypes.h	/^  double res0;$/;"	m	struct:SOLN
+rey	ham2dtypes.h	/^  double mach,alpha,rey;$/;"	m	struct:SOLN
+rgas	ham2dtypes.h	/^  double gm1,c2b,rgas,pr,prtr;$/;"	m	struct:SOLN
+rinf	ham2dFunctionDefs.h	4;"	d
+rmat	ham2dtypes.h	/^  double rmat[4][4];$/;"	m	struct:faceMat
+roeflx	roeflx.c	/^void roeflx(double *specRadius,double flux[NVAR],$/;"	f
+sigma	ham2dtypes.h	/^  double *sigma; \/\/ line integral of spectral radius per cell$/;"	m	struct:SOLN
+smoothGrid	smoothGrid.c	/^void smoothGrid(GRID *g, int msweep)$/;"	f
+stepSolution	stepSolution.c	/^void stepSolution(char *stepType,GRID *g,SOLN *s,double dt,double *l2norm,int myid)$/;"	f
+swap	ham2dtypes.h	125;"	d
+test	ham2dtypes.h	/^  int    test;$/;"	m	struct:GRID
+test_faces	test_faces.f90	/^program test_faces$/;"	p
+timeInteg	ham2dtypes.h	/^  int    timeInteg; \/\/ timeIntegration scheme$/;"	m	struct:GRID
+timeacc	ham2dtypes.h	/^  int    timeacc; \/\/ time accurate or not$/;"	m	struct:GRID
+tmp	ham2dtypes.h	/^  int    tmp;$/;"	m	struct:GRID
+trace	ham2dtypes.h	122;"	d
+tracef	ham2dtypes.h	121;"	d
+uinf	ham2dtypes.h	/^  double uinf,vinf,einf;$/;"	m	struct:SOLN
+updateSoln	updateSoln.c	/^void updateSoln(double *qsrc,  \/\/ "source\/initial" states$/;"	f
+updateTime	updateTime.c	/^void updateTime(GRID *g, SOLN *s)$/;"	f
+vinf	ham2dtypes.h	/^  double uinf,vinf,einf;$/;"	m	struct:SOLN
+visc	ham2dtypes.h	/^  int    visc;   \/\/ viscous $/;"	m	struct:GRID
+vol	ham2dtypes.h	/^  double *vol; \/\/ cell volume$/;"	m	struct:GRID
+wallFlux	wallFlux.f90	/^subroutine wallFlux(/;"	s
+wallFluxJacobian	wallFlux.f90	/^subroutine wallFluxJacobian(/;"	s
+weno	weno.c	/^void weno(double **f,  \/\/fluxes at each edge$/;"	f
+weno	weno_base.c	/^void weno(double **f,  \/\/fluxes at each edge$/;"	f
+weno3	weno3.c	/^void weno3(double **f, \/\/fluxes at each edge$/;"	f
+weno5	weno.c	/^double weno5(double a,  \/\/fluxes at each edge$/;"	f
+weno5_d	weno_deriv.c	/^double weno5_d(double a,  \/\/fluxes at each edge$/;"	f
+weno_deriv	weno_deriv.c	/^void weno_deriv(double **f,$/;"	f
+wrest	wrest.c	/^void wrest(GRID *g,SOLN *s, int n, int nn)$/;"	f
+x	ham2dtypes.h	/^  double *x;                 \/\/ coordinates of nodes$/;"	m	struct:GRID
