@@ -62,6 +62,7 @@ int main(int argc, char **argv)
   printf("Hello world! I'm process %i out of %i process\n",myid,nproc);
   ierr = MPI_Barrier(MPI_COMM_WORLD);
 
+
   // ==================================================================  
 // Read in file inputs from input.ham2d
 // ==================================================================
@@ -106,6 +107,7 @@ int main(int argc, char **argv)
   for(i=0;i<ngrids;i++) 
   {
       
+      
       // Read the grid data (i.e., data points and connectivity information
       // from the Matlab mesh-generation)
       readGrid(&g[i],myid,nproc);
@@ -130,7 +132,7 @@ int main(int argc, char **argv)
 
       if (strcmp(timeInteg,"bdf1")==0) g[i].timeInteg=BDF1;
       if (strcmp(timeInteg,"bdf2")==0) g[i].timeInteg=BDF2;
-  }
+    }
 
   //nn = 1;
   //outputSolution(&g[0],&s[0],nn,myid,nproc); 
@@ -141,14 +143,8 @@ int main(int argc, char **argv)
 // Main bulk of the code. Step through the solution for 
 // as many steps are required.
 // ==================================================================
-  if(myid<10)
+  
   sprintf(fname,"./output/sol_his00%i.dat",myid);
-  else if(myid<100)
-  sprintf(fname,"./output/sol_his0%i.dat",myid);
-  else if(myid<1000)
-  sprintf(fname,"./output/sol_his%i.dat",myid);
-
-
   fp = fopen(fname,"w"); 
 
   if(myid==0) 
@@ -185,6 +181,8 @@ int main(int argc, char **argv)
        
 	  } 
      ierr = MPI_Barrier(MPI_COMM_WORLD);
+
+
 
      // write output files
      if((n+1)%nwrite==0 || n==ntotal) 

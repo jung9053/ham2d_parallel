@@ -31,7 +31,6 @@ void apply_periodic_LHS(GRID *g, int f1, int f2, int m);
 void initflow(GRID *g,SOLN *s,int irest,int myid);
 
 void outputSolution(GRID *g,SOLN *s,int nn,int myid, int nproc);
-void outputSolution2(GRID *g,SOLN *s,int nn,int myid, int nproc);
 
 
 void wrest(GRID *g, SOLN *s, int n, int nn); 
